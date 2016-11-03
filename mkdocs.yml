@@ -1,4 +1,5 @@
 site_name: Manuel de Formation Technique
+docs_dir: '.'
 pages:
 - Home: index.md
 - 'Plongeur Niveau 1': 04_Plongeur_niveau_1.md
