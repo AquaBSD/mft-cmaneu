@@ -1,19 +1,40 @@
+# Project information
 site_name: Manuel de Formation Technique
-docs_dir: '.'
+site_description: 'Les chapitres du Manuel de formation technique de la FFESSM'
+site_author: 'AquaBSD'
+site_url: 'https://mft.aquabsd.org'
+
+# Pages
 pages:
-- Home: index.md
-- 'Plongeur Niveau 1': 04_Plongeur_niveau_1.md
-- 'Plongeur Niveau 2': 06_Plongeur_niveau_2.md
-- 'Plongeur Niveau 3': 09_Plongeur_niveau_3.md
-- 'Plongeur encadré à 40m': 07_Qualification_PE40m.md
-- 'Plongeur encadré à 60m': 43_Qualification_PE60m.md
-- 'Plongeur en autonomie à 12m': 46_Qualification_PA12m.md
-- 'Plongeur en autonomie à 20m': 05_Qualification_PA20m.md
-- 'Plongeur en autonomie à 40m': 08_Qualification_PA40m.md
-- 'Directeur de plongée - P5': 12_Directeur_de_Plongee_N5.md
-- 'Plongeur Nitrox': 20_Nitrox.md
-- 'Plongeur Trimix': 21_Trimix.md
-- 'RIFA Plongée': 24_RIFA_Plongee.md
-- 'Qualification vêtement étanche': 33_Vetement_etanche.md
-- 'Passerelles FFESSM / PADI et FFESSM / SSI': 19_Passerelles_PADI_SSI.md
-theme: readthedocs
+  - 'Accueil': index.md
+  - 'Plongeur Niveau 1': 04_Plongeur_niveau_1.md
+  - 'Plongeur Niveau 2': 06_Plongeur_niveau_2.md
+  - 'Plongeur Niveau 3': 09_Plongeur_niveau_3.md
+  - 'Plongeur encadré à 40m': 07_Qualification_PE40m.md
+  - 'Plongeur encadré à 60m': 43_Qualification_PE60m.md
+  - 'Plongeur en autonomie à 12m': 46_Qualification_PA12m.md
+  - 'Plongeur en autonomie à 20m': 05_Qualification_PA20m.md
+  - 'Plongeur en autonomie à 40m': 08_Qualification_PA40m.md
+  - 'Directeur de plongée - P5': 12_Directeur_de_Plongee_N5.md
+  - 'Plongeur Nitrox': 20_Nitrox.md
+  - 'Plongeur Trimix': 21_Trimix.md
+  - 'RIFA Plongée': 24_RIFA_Plongee.md
+  - 'Qualification vêtement étanche': 33_Vetement_etanche.md
+  - 'Passerelles FFESSM / PADI et FFESSM / SSI': 19_Passerelles_PADI_SSI.md
+
+# Documentation and theme
+docs_dir: '.'
+theme: 'material'
+
+# Options
+extra:
+  logo: 'images/logo.png'
+  palette:
+    primary: 'blue'
+    accent: 'cyan'
+  font:
+    text: 'Roboto'
+    code: 'Roboto Mono'
+  i18n:
+    prev: 'Précédent'
+    next: 'Suivant'
